@@ -71,7 +71,11 @@
     background-color: rgb(34,33,50);
 }
 .logo-header{
-    width: 80px;
+    width: 70px;
+    padding-left: 0;
+}
+.first-img{
+    padding-left: 0;
 }
 .logout{
     text-align: end;
@@ -101,6 +105,12 @@
 }
 #labels{
     text-align: left;
+}
+#pass{
+    padding-top: 10px;
+}
+#email-addres{
+    padding-top: 10px;
 }
 #input-nome{
     width: 600px;
@@ -142,11 +152,7 @@
     width:280px
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {  }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {  }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { }
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
