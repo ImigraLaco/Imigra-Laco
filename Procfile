@@ -1,1 +1,1 @@
-web: node src/servidor.js 
+web: node ./src/servidor.js 
