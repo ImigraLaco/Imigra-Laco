@@ -2,10 +2,10 @@
   "name": "imigra-laco",
   "version": "1.0.1",
   "description": "",
-  "main": "src/servidor.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "jest", 
-    "start": "node src/servidor.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
