@@ -30,72 +30,65 @@
         </div>
     </header>
     <main>
-        <section class="meu-perfil container-fluid" id="meu-perfil">
+        <!-- <section class="meu-perfil container-fluid" id="meu-perfil">
             <div class="row">
                 <div class="col-12 col-md-6 icon">
                     <img src="./assets/outline_account_circle_black_24dp.png" alt="">
                 </div>
-                <div class="col-12 col-md-6">
-                    <p class="title">Meu Perfil</p>
+                <div class="col-12 col-md-6 text-left">
+                    <p class="title">Cadastro</p>
                 </div>
 
             </div>
-        </section>
-        <div class="container-fluid main">
+        </section> -->
+        <div class="container">
             <div class="row">
-                <div class="col">
-                    <form action="post" class="form-horizontal form" role="form">
-                        <div class="form-group">
-                            <label for="inputEmail3" id="labels" class="col-sm-2 control-label">Nome</label><br><br>
-                            <div class="col-sm-10">
-                                <input type="text" id="input-nome" class="form-control inputs" id="inputEmail3"
-                                    placeholder="" required>
-                            </div>
-                            <div class="col-xs-6" id="email-addres">
-                                <label for="email">Email</label>
-                                <input type="text" id="email" class="form-control" placeholder="" required>
-                            </div>
-                            <div class="col-xs-6" id="pass">
-                                <label for="senha">Senha</label>
-                                <input type="text" id="senha" class="form-control" placeholder="" required>
-                            </div>
+                <form>
+                    <h3 class="cadastro-title">Cadastro</h3>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nome</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                         </div>
-                        <div class="col-xs-6 cpf">
-                            <label for="cpf-number" id="cpf">CPF</label>
-                            <input type="text" id="cpf-number" class="form-control" id="cpf" placeholder="" required>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                                value="teste@teste.com" required>
                         </div>
-                        <div class="col-xs-6" id="nacionalidade">
-                            <label for="nac">Nacionalidade</label>
-                            <input type="text" id="nac" class="form-control" placeholder="" required>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Senha</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha" required>
                         </div>
-                        <div class="col-xs-6" id="endereco">
-                            <label for="end">Endereco</label>
-                            <input type="text" id="end" class="form-control" placeholder="" required>
+                        <div class="form-group col-md-6">
+                            <label for="cfp">CPF</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="061-255-310-20" required>
                         </div>
-                        <div class="col-xs-6" id="estado">
-                            <label for="est">Estado</label>
-                            <select name="pais" id="est" class="form-control">
-                                <option value="Africa">Parana</option>
-                                <option value="Africa">Rio de Janeiro</option>
-                            </select>
+                        <div class="form-group col-md-6">
+                            <label for="nacionalidade">Nacionalidade</label>
+                            <input type="text" class="form-control" id="nacionalidade"
+                                placeholder="Rua dos Bobos, nº 0" required>
                         </div>
-                        <div class="col-xs-6" id="telefone">
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress">Endereço</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEstado">Estado</label>
+                            <input type="text" class="form-control" id="inputEstado" required>
+                        </div>
+                        <div class="form-group col-md-2">
                             <label for="telefone">Telefone</label>
-                            <input type="text" id="telefone" class="form-control" placeholder="" required>
+                            <input type="text" class="form-control" id="inputelefone" required>
                         </div>
-                        <div class="col-xs-6" id="cid">
-                            <label for="cidade">Cidade</label>
-                            <select name="cidade" id="cidade" class="form-control">
-                                <option value="Africa">Curitiba</option>
-                                <option value="Africa">Niteroi</option>
-                            </select>
-                        </div>
-                        <div class="col-xs-6 button">
-                            <button class="btn btn-saiba-mais">Salvar</button>
-                        </div>
-                    </form>
-                <div>
+                    </div>
+
             </div>
+            <button type="submit" class="btn btn-submit">Salvar</button>
+            </form>
         </div>
     </main>
 
