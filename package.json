@@ -5,7 +5,7 @@
   "main": "src/servidor.js",
   "scripts": {
     "test": "jest", 
-    "start": "node servidor.js"
+    "start": "node src/servidor.js"
   },
   "repository": {
     "type": "git",
