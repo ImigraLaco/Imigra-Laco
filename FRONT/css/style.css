@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texto-empregabilidade{
+    padding-top: 60px;
+    color: white;
+    font-size: 30px;
+}
+.btn-saiba-mais{
+    color:white;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(244,111,70);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.img-empregabilidade img{
+    width: 500px;
+}
+
+
+.ajuda{
+    background-color: rgb(91,104,105);
+    /* padding-bottom: 30px; */
+}
+
+.logo-bottom{
+    background-color: rgb(244,111,70);
+    height: 180px;
+}
+.logo-bottom-img{
+    padding: 20px;
+}
+
+
+.footer{
+    color: white;
+    background-color: rgb(34,33,50);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
