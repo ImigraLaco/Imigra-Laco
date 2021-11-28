@@ -21,9 +21,9 @@ module.exports = (app, bd) =>{
     app.post('/imigrante/incluir', async (res, resp)=>{
         try{
             const body = res.body
-            const params = [body.MUSCULO, body.EXERCICIO, body.SERIES, body.REPETICOES]
+            const params = [body.NOME, body.CPF, body.NACIONALIDADE, body.DATA_DE_NASCIMENTO, body.GENERO, body.IDENTIDADE_DE_GENERO, body.ORIENTACAO, body.EMAIL, body.SENHA, body.RUA, body.NUMERO, body.CIDADE, body.ESTADO, body.TELEFONE]
 
-            const respostaNovoImigrante = await daoImigrante.NovoImigrante(params)
+            const respostaNovoImigrante = await daoImigrante.novoImigrante(params)
             resp.json(respostaNovoImigrante)
 
         }catch(error){
@@ -35,7 +35,7 @@ module.exports = (app, bd) =>{
         try{
             const id = res.params.ID
 
-            const respostaDeleteImigrante = await daoImigrante.DeleteImigrante(id)
+            const respostaDeleteImigrante = await daoImigrante.deleteImigrante(id)
             resp.json(respostaDeleteImigrante)
 
         }catch(error){
@@ -46,11 +46,11 @@ module.exports = (app, bd) =>{
     app.put('/imigrante/edit/:ID', async(res, resp)=>{
         try{
             const body = res.body
-            // const params = [body.MUSCULO, body.EXERCICIO, body.SERIES, body.REPETICOES]
-
+            const params = [body.NOME, body.CPF, body.NACIONALIDADE, body.DATA_DE_NASCIMENTO, body.GENERO, body.IDENTIDADE_DE_GENERO, body.ORIENTACAO, body.EMAIL, body.SENHA, body.RUA, body.NUMERO, body.CIDADE, body.ESTADO, body.TELEFONE]
+           
             const id = res.params.ID
 
-            const respostaEditaImigrante = await daoImigrante.EditImigrante(params, id)
+            const respostaEditaImigrante = await daoImigrante.editImigrante(params, id)
             resp.json(respostaEditaImigrante)
 
         }catch(error){

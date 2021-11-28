@@ -1,4 +1,4 @@
-const ParceiroDao = require('../dao/Parceiro-dao');
+const ParceiroDao = require('../dao/parceiro-dao');
 
 module.exports = (app, bd) =>{
     
@@ -23,7 +23,7 @@ module.exports = (app, bd) =>{
             const body = res.body
             const params = [body.NOME, body.CPF, body.NACIONALIDADE, body.DATA_DE_NASCIMENTO, body.GENERO, body.IDENTIDADE_DE_GENERO, body.ORIENTACAO, body.EMAIL, body.SENHA, body.RUA, body.NUMERO, body.CIDADE, body.ESTADO, body.TELEFONE]
 
-            const respostaNovoParceiro = await daoParceiro.NovoParceiro(params)
+            const respostaNovoParceiro = await daoParceiro.novoParceiro(params)
             resp.json(respostaNovoParceiro)
 
         }catch(error){
@@ -35,7 +35,7 @@ module.exports = (app, bd) =>{
         try{
             const id = res.params.ID
 
-            const respostaDeleteParceiro = await daoParceiro.DeleteParceiro(id)
+            const respostaDeleteParceiro = await daoParceiro.deleteParceiro(id)
             resp.json(respostaDeleteParceiro)
 
         }catch(error){
@@ -50,7 +50,7 @@ module.exports = (app, bd) =>{
            
             const id = res.params.ID
 
-            const respostaEditaParceiro = await daoParceiro.EditParceiro(params, id)
+            const respostaEditaParceiro = await daoParceiro.editParceiro(params, id)
             resp.json(respostaEditaParceiro)
 
         }catch(error){
