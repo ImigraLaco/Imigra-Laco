@@ -8,9 +8,9 @@ const rotasImigrante = require('./controller/imigrante-controller')
 const rotasParceiro = require('./controller/parceiro-controller')
 
 //Importando Models no DB
-const Imigrante = require('./models/ImigrModel')
-const Parceiro = require('./models/ParcModel')
-const db = require('./data/sqlite-db')
+const Imigrante = require('./models/ImigranteModel')
+const Parceiro = require('./models/ParceiroModel')
+const db = require('./data/sqlite-bd')
 
 //Middlewares
 app.use(express.json())
