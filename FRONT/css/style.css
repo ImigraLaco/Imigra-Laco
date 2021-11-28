@@ -64,3 +64,89 @@
     text-align: center;
     padding-top: 15px;
 }
+
+/* PAGINA CADASTRO */
+
+.header{
+    background-color: rgb(34,33,50);
+}
+.logo-header{
+    width: 80px;
+}
+.logout{
+    text-align: end;
+    padding-top: 20px;
+}
+.logout a{
+    text-decoration: none;
+    color: white;
+    align-self: baseline;
+}
+#meu-perfil{
+    background-color: rgb(239,244,249);
+}
+.form{
+    width: 600px;
+}
+.main{
+    margin-bottom: 20px;
+}
+.title{
+    color: rgb(244,111,70);
+    font-size: 25px;
+    padding-top: 20px;
+}
+.icon{
+    padding-top: 10px;
+}
+#labels{
+    text-align: left;
+}
+#input-nome{
+    width: 600px;
+
+}
+.inputs{
+    width: 300px;
+}
+.cpf{
+    padding-left: 0;
+}
+#endereco{
+    padding-left: 0;
+    padding-top: 10px;
+}
+#estado{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#telefone{
+    padding-left: 0;
+    padding-top: 10px;
+}
+#cid{
+    padding-top: 10px;
+}
+.button{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+#nac{
+    width: 280px;
+}
+#est{
+    width: 280px;
+
+}
+#cidade{
+    width:280px
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img class="logo-header" src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="col-12 col-md-6 logout">
+                <span class="logout"><a href="">logout</a></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="meu-perfil container-fluid" id="meu-perfil">
+            <div class="row">
+                <div class="col-12 col-md-6 icon">
+                    <img src="./assets/outline_account_circle_black_24dp.png" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="title">Meu Perfil</p>
+                </div>
+
+            </div>
+        </section>
+        <div class="container-fluid main">
+            <div class="row">
+                <div class="col">
+                    <form action="post" class="form-horizontal form" role="form">
+                        <div class="form-group">
+                            <label for="inputEmail3" id="labels" class="col-sm-2 control-label">Nome</label><br><br>
+                            <div class="col-sm-10">
+                                <input type="text" id="input-nome" class="form-control inputs" id="inputEmail3"
+                                    placeholder="" required>
+                            </div>
+                            <div class="col-xs-6">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="col-xs-6">
+                                <label for="senha">Senha</label>
+                                <input type="text" id="senha" class="form-control" placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 cpf">
+                            <label for="cpf-number" id="cpf">CPF</label>
+                            <input type="text" id="cpf-number" class="form-control" id="cpf" placeholder="" required>
+                        </div>
+                        <div class="col-xs-6" id="nacionalidade">
+                            <label for="nac">Nacionalidade</label>
+                            <input type="text" id="nac" class="form-control" placeholder="" required>
+                        </div>
+                        <div class="col-xs-6" id="endereco">
+                            <label for="end">Endereco</label>
+                            <input type="text" id="end" class="form-control" placeholder="" required>
+                        </div>
+                        <div class="col-xs-6" id="estado">
+                            <label for="est">Estado</label>
+                            <select name="pais" id="est" class="form-control">
+                                <option value="Africa">Parana</option>
+                                <option value="Africa">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-6" id="telefone">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" id="telefone" class="form-control" placeholder="" required>
+                        </div>
+                        <div class="col-xs-6" id="cid">
+                            <label for="cidade">Cidade</label>
+                            <select name="cidade" id="cidade" class="form-control">
+                                <option value="Africa">Curitiba</option>
+                                <option value="Africa">Niteroi</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-6 button">
+                            <button class="btn btn-saiba-mais">Salvar</button>
+
+                        </div>
+                    </form>
+                    <div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer class="footer container-fluid fixed-bottom">
+        <p>Todos os direitos Reservados &copy; Hackaton
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
