@@ -1,158 +1,134 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.texto-empregabilidade{
-    padding-top: 60px;
-    color: white;
-    font-size: 30px;
+.texto-empregabilidade {
+  padding-top: 60px;
+  color: white;
+  font-size: 30px;
 }
-.btn-saiba-mais{
-    color:white;
-    width: 120px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: rgb(244,111,70);
-    text-decoration: none;
-    font-size: 15px;
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 10px;
+.btn-saiba-mais {
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(244, 111, 70);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
 }
-.img-empregabilidade img{
-    width: 500px;
+.img-empregabilidade img {
+  width: 500px;
 }
 
-
-.ajuda{
-    background-color: rgb(91,104,105);
-    /* padding-bottom: 30px; */
+.ajuda {
+  background-color: rgb(91, 104, 105);
+  /* padding-bottom: 30px; */
 }
 
-.logo-bottom{
-    background-color: rgb(244,111,70);
-    height: 180px;
+.logo-bottom {
+  background-color: rgb(244, 111, 70);
+  height: 180px;
 }
-.logo-bottom-img{
-    padding: 20px;
+.logo-bottom-img {
+  padding: 20px;
 }
 
-
-.footer{
-    color: white;
-    background-color: rgb(34,33,50);
-    height: 50px;
-    text-align: center;
-    padding-top: 15px;
+.footer {
+  color: white;
+  background-color: rgb(34, 33, 50);
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 /* PAGINA CADASTRO */
 
-.header{
-    background-color: rgb(34,33,50);
+.header {
+  background-color: rgb(34, 33, 50);
 }
-.logo-header{
-    width: 70px;
-    padding-left: 0;
+.logo-header {
+  width: 70px;
+  padding-left: 0;
 }
-.first-img{
-    padding-left: 0;
+.first-img {
+  padding-left: 0;
 }
-.logout{
-    text-align: end;
-    padding-top: 20px;
+.logout {
+  text-align: end;
+  padding-top: 20px;
 }
-.logout a{
-    text-decoration: none;
-    color: white;
-    align-self: baseline;
+.logout a {
+  text-decoration: none;
+  color: white;
+  align-self: baseline;
 }
-#meu-perfil{
-    background-color: rgb(239,244,249);
+#meu-perfil {
+  background-color: rgb(239, 244, 249);
 }
-.form{
-    width: 600px;
+.form {
+  width: 600px;
 }
-.main{
-    margin-bottom: 20px;
+.main {
+  margin-bottom: 20px;
 }
-.title{
-    color: rgb(244,111,70);
-    font-size: 25px;
-    padding-top: 20px;
+.title {
+  color: rgb(244, 111, 70);
+  font-size: 25px;
+  padding-top: 20px;
 }
-.icon{
-    padding-top: 10px;
+.icon {
+  padding-top: 10px;
 }
-#labels{
-    text-align: left;
+#labels {
+  text-align: left;
 }
-#pass{
-    padding-top: 10px;
+#pass {
+  padding-top: 10px;
 }
-#email-addres{
-    padding-top: 10px;
+#email-addres {
+  padding-top: 10px;
 }
-#input-nome{
-    width: 600px;
-
+#input-nome {
+  width: 600px;
 }
-.inputs{
-    width: 300px;
+.inputs {
+  width: 300px;
 }
-.cpf{
-    padding-left: 0;
+.cpf {
+  padding-left: 0;
 }
-#endereco{
-    padding-left: 0;
-    padding-top: 10px;
+#endereco {
+  padding-left: 0;
+  padding-top: 10px;
 }
-#estado{
-    padding-left: 15px;
-    padding-top: 10px;
+#estado {
+  padding-left: 15px;
+  padding-top: 10px;
 }
-#telefone{
-    padding-left: 0;
-    padding-top: 10px;
+#telefone {
+  padding-left: 0;
+  padding-top: 10px;
 }
-#cid{
-    padding-top: 10px;
+#cid {
+  padding-top: 10px;
 }
-.button{
-    padding-left: 0px;
-    padding-top: 20px;
+.button {
+  padding-left: 0px;
+  padding-top: 20px;
 }
-#nac{
-    width: 280px;
+#nac {
+  width: 280px;
 }
-#est{
-    width: 280px;
-
+#est {
+  width: 280px;
 }
-#cidade{
-    width:280px
+#cidade {
+  width: 280px;
 }
 
-@media(max-width:767px){}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
+
+
