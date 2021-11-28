@@ -3,7 +3,7 @@ const cors = require('cors')
 const bd =require('./data/sqlite-bd')
 const imigranteController = require('./controllers/imigrante-controller')
 const parceiroController = require('./controllers/parceiro-controller')
-const port = 3030
+const port = process.env.PORT
 const app = Express()
 
 
