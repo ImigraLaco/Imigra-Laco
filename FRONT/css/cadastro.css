@@ -1,0 +1,43 @@
+/* PAGINA CADASTRO */
+
+.header {
+    background-color: rgb(34, 33, 50);
+  }
+  .logo-header {
+    width: 70px;
+    padding-left: 0;
+  }
+  .first-img {
+    padding-left: 0;
+  }
+  .logout {
+    text-align: end;
+    padding-top: 20px;
+  }
+  .logout a {
+    text-decoration: none;
+    color: white;
+    align-self: baseline;
+  }
+  #meu-perfil {
+    background-color: rgb(239, 244, 249);
+  }
+  .btn-submit{
+    background-color:rgb(244, 111, 70);
+    color: white;
+    margin-bottom: 80px;
+    width: 100px;
+  }
+  #cadastro-form{
+    width: 800px;
+  }
+  .container{
+    width: 800px;
+  }
+  .footer {
+    color: white;
+    background-color: rgb(34, 33, 50);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
