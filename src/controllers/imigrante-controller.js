@@ -46,7 +46,7 @@ module.exports = (app, bd) =>{
     app.put('/imigrante/edit/:ID', async(res, resp)=>{
         try{
             const body = res.body
-            const params = [body.MUSCULO, body.EXERCICIO, body.SERIES, body.REPETICOES]
+            // const params = [body.MUSCULO, body.EXERCICIO, body.SERIES, body.REPETICOES]
 
             const id = res.params.ID
 
