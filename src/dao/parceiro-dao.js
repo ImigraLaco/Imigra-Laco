@@ -18,7 +18,7 @@ module.exports = class ParceiroDao{
     novoParceiro(params){
         return new Promise((resolve, reject)=>{
             const query = 'INSERT INTO PARCEIRO (NOME, CNPJ, DATA_DE_ABERTURA, EMAIL, SENHA, RUA, NUMERO, CIDADE, ESTADO, TELEFONE) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
-            const parametros = [params[0], params[1], params[2], params[3], params[4], params[5], params[6], params[7],params[8], params[9], id]
+            const parametros = [params[0], params[1], params[2], params[3], params[4], params[5], params[6], params[7],params[8], params[9]]
             this.bd.run(query,parametros, (error, response)=>{
                 if(error) reject(`Erro ao adicionar usuário. ${error}`)
                 else resolve('Usuario adicionado com sucesso')
