@@ -14,9 +14,14 @@ ABOUT
 EQUIPE
 
 https://github.com/cristianokituxi
+
 https://github.com/evelynsba
+
 https://github.com/jonathaslkc
+
 https://github.com/kellenThaisaLima
+
 https://github.com/zuiurac
+
 https://github.com/MariliaDev
 
