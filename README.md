@@ -13,5 +13,5 @@ ABOUT
 
 EQUIPE
 
-@mariliadevs
+https://github.com/MariliaDev
 
