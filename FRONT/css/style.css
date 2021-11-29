@@ -73,7 +73,7 @@ nav {
 .logo-bottom {
   background-color: white;
   height: 180px;
-  align-self: center;
+  padding-left: 40%;
 }
 .logo-bottom-img {
   padding: 20px;
