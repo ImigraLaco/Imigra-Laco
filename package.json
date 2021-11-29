@@ -1,11 +1,11 @@
 {
   "name": "imigra-laco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "jest", 
-    "start": "nodemon servidor.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
