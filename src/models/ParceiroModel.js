@@ -1,12 +1,18 @@
 
-class Task{
-    constructor(titulo,descricao,status,userId){
-        this.titulo = titulo;
-        this.descricao = descricao;
-        this.status = status;
-        this.dataCriacao = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss').diff;
-        this.criador = userId
+class Parceiro{
+    constructor(nome, cnpj, nacionalidade, data_de_abertura, email, senha, rua, numero, cidade, estado, telefone){
+        this.nome = nome;
+        this.cnpj = cnpj;  
+        this.nacionalidade = nacionalidade;  
+        this.data_de_abertura = data_de_abertura;          
+        this.email = email;  
+        this.senha = senha;  
+        this.rua = rua;  
+        this.numero = numero;  
+        this.cidade = cidade;  
+        this.estado = estado;  
+        this.telefone = telefone;
     }
 }
 
-module.exports = Task
+module.exports = Parceiro
