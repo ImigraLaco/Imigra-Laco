@@ -2,10 +2,48 @@
   margin: 0;
 }
 
+.img img {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  bottom: 1px;
+  right: 16px;
+}
+  
+.banner-image {
+  background-image: url("../assets/shutterstock_1670450323.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-home{
+  color: rgb(244, 111, 70);
+}
+
 .texto-empregabilidade {
   padding-top: 60px;
   color: white;
   font-size: 30px;
+}
+#navbar{
+  float: right;
+}
+.items-nav ul{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.items-nav ul li{
+  display: inline;
+  float: right;
+
+}
+.items-nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav {
+  background-color: transparent;
+  height: 60px;
 }
 .btn-saiba-mais {
   color: white;

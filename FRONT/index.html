@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap" rel="stylesheet">
+    <!-- Photo by Elena Blessing from Pexels -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home Page</title>
 </head>
+
 <body>
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container-fluid">
+                <a href="./index.html" class="nav-bar brand"><img src="./assets/logo.png" alt=""
+                        style="width: 80px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse items-nav" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./empregabilidade.html">Empregabilidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./idiomas.html">Idiomas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./interna-ajudar.html">Ajuda</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
+        <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+
+            <div class="col-12 col-md-6">
+                <div class="content text-center m-2">
+                    <h2 class="text-white">Você não está <strong class="title-home">sozinho</strong></h2>
+                    <br>
+                    <p class="text-white">Nós queremos te ajudar a chegar mais longe</p>
+                    <div class="button-empregabilidade pt-5">
+                        <a href="#" class="btn  btn-saiba-mais">Cadastre se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
 
 
-
-        <section class="container-fluid ajuda d-flex">
+        <section class="container-fluid ajuda d-flex text-center align-items-center justify-content-between">
             <div class="row">
                 <div class="col-12 col-md-6 texto-empregabilidade">
                     <p>Nós ajudamos a <br>Resolver problemas <br><strong> de empregabilidade</strong></p><br>
@@ -47,13 +97,18 @@
 
 
     <footer class="footer container-fluid fixed-bottom">
-        <p>Todos os direitos Reservados &copy; Hackaton <script>document.write(new Date().getFullYear());</script></p>
+        <p>Todos os direitos Reservados &copy; Hackaton
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
     </footer>
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-          <script src="js/jquery.fancybox.pack.js"></script>
-          <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
 </html>
