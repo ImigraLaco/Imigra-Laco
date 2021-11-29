@@ -2,13 +2,6 @@
   margin: 0;
 }
 
-.img img {
-  position: absolute;
-  width: 500px;
-  height: auto;
-  bottom: 1px;
-  right: 16px;
-}
   
 .banner-image {
   background-image: url("../assets/shutterstock_1670450323.png");
@@ -23,6 +16,7 @@
   padding-top: 60px;
   color: white;
   font-size: 30px;
+  padding-left: 50px;
 }
 #navbar{
   float: right;
@@ -58,21 +52,38 @@ nav {
   text-align: center;
   padding-bottom: 10px;
 }
-.img-empregabilidade img {
-  width: 500px;
+.section2{
+  background-color: rgb(232,185,104);
 }
+.section3{
+  background-color: white;
 
+}
+.texto-docs{
+  color: rgb(91,104,105);
+  font-size: 30px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
 .ajuda {
   background-color: rgb(91, 104, 105);
   /* padding-bottom: 30px; */
 }
 
 .logo-bottom {
-  background-color: rgb(244, 111, 70);
+  background-color: white;
   height: 180px;
+  align-self: center;
 }
 .logo-bottom-img {
   padding: 20px;
+}
+.img-empregabilidade img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: right;
 }
 
 .footer {
